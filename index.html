@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sneak - Simple Portfolio page</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/icofont/icofont.min.css"
+    />
+  </head>
+  <body>
+    <div class="hamburger hamburger--collapse-r" id="hamburger">
+      <div class="hamburger-box">
+        <div class="hamburger-inner"></div>
+      </div>
+    </div>
+
+    <header id="header" class="header">
+      <nav class="nav">
+        <a class="logo" href="#">
+          <figure class="figure__logo">
+            <img class="logo__navbar-img" src="./assets/imgs/logo.png" />
+          </figure>
+
+          <div class="description__logo">
+            <span class="logo__navbar-name"> SNEAK </span>
+
+            <span class="logo__navbar-text">CREATIVE PORTFOLIO</span>
+          </div>
+        </a>
+
+        <ul class="navbar" id="nav-header">
+          <li class="link__item">
+            <a class="link" href="#gallery"> All </a>
+          </li>
+
+          <li class="link__item">
+            <a class="link" href="#gallery"> Branding </a>
+          </li>
+
+          <li class="link__item">
+            <a class="link" href="#gallery"> Web </a>
+          </li>
+
+          <li class="link__item">
+            <a class="link" href="#gallery"> Photography </a>
+          </li>
+
+          <li class="link__item">
+            <a class="link" href="#gallery"> App </a>
+          </li>
+
+          <li class="search" id="search">
+            <img
+              id="icon__search"
+              class="icon__search"
+              src="./assets/imgs/search.png"
+            />
+
+            <label class="label__search" for="search__input"></label>
+
+            <input
+              id="search__input"
+              name="search__input"
+              class="search__input"
+              type="search"
+              placeholder="Look for your img"
+            />
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero__container">
+        <h1 class="hero__title">EXPLORE BEYOND HORIZON</h1>
+
+        <p class="hero__description">
+          Magna mundi referrenfur quo, no rebum dignissim qui. Per quodsi
+          accusata id, agam labores.
+        </p>
+
+        <a class="hero__button" href="https://titamedia.com/" target="_blank">
+          VIEW OUR WORK
+        </a>
+      </div>
+    </section>
+
+    <section class="portfolio__container" id="portfolio__container">
+      <div>
+        <img
+          src="./assets/imgs/icon1.webp"
+          id="icon-grid"
+          class="display__icon"
+        />
+
+        <img
+          src="./assets/imgs/icon2.webp"
+          id="icon-list"
+          class="display__icon"
+        />
+      </div>
+
+      <nav>
+        <ul class="navbar navbar__gallery" id="navbar">
+          <li class="link__item btn__portfolio">
+            <a class="link link--activate" href="#gallery">All</a>
+          </li>
+
+          <li class="link__item">
+            <a class="link" href="#gallery">Branding</a>
+          </li>
+
+          <li class="link__item">
+            <a class="link" href="#gallery">Web</a>
+          </li>
+
+          <li class="link__item">
+            <a class="link" href="#gallery">Photography</a>
+          </li>
+
+          <li class="link__item">
+            <a class="link" href="#gallery">App</a>
+          </li>
+        </ul>
+      </nav>
+
+      <article id="gallery" class="portfolio__container-unplash">
+        <div id="first-column"></div>
+
+        <div id="second-column"></div>
+
+        <div id="third-column"></div>
+      </article>
+
+      <button class="container__btn-Show" id="container__btn-Show">
+        Show Me More
+      </button>
+    </section>
+
+    <footer class="footer__container">
+      <h4>© 2016 - <strong> Sneak </strong> All Right Reserved</h4>
+
+      <div class="footer__container-icons">
+        <a href="https://titamedia.com/" target="_blank">
+          <img src="./assets/icons/facebook.png" />
+        </a>
+        <a href="https://titamedia.com/" target="_blank">
+          <img src="./assets/icons/twitter.png" />
+        </a>
+        <a href="https://titamedia.com/" target="_blank">
+          <img src="./assets/icons/ball.png" />
+        </a>
+        <a href="https://titamedia.com/" target="_blank">
+          <img src="./assets/icons/googlePlus.png" />
+        </a>
+        <a href="https://titamedia.com/" target="_blank">
+          <img src="./assets/icons/youtube.png" />
+        </a>
+      </div>
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>

@@ -1,0 +1,27 @@
+.portfolio__container-unplash {
+  max-width: 1200px;
+  margin: 0rem 2rem 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "first-column second-column third-column";
+  grid-gap: 2rem;
+}
+.gallery--inline {
+  display: block;
+  justify-content: center;
+}
+.gallery__img {
+  width: 100%;
+  margin: 1rem 0;
+}
+.container__btn-Show {
+  font-size: 13px;
+  letter-spacing: 2px;
+  padding: 11px 13px;
+  font-family: 'Montserrat', 'Questrial', sans-serif;
+  color: #fff;
+  background-color: #fc758c;
+  border: none;
+  width: 170px;
+  cursor: pointer;
+}

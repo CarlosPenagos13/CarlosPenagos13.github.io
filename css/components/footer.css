@@ -1,0 +1,24 @@
+.footer__container {
+  display: flex;
+  padding: 50px;
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: column;
+  top: 100%;
+  width: 100%;
+}
+.footer__container strong {
+  color: #ff5672;
+}
+.footer__container h4 {
+  color: #707070;
+  font-size: 15px;
+  font-weight: normal;
+}
+.footer__container-icons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 30px;
+  justify-content: center;
+}
