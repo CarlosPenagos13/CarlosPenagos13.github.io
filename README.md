@@ -10,7 +10,11 @@ Prueba técnica de tita media
 
 # Para clonar el repositorio
 
-git clone git@github.com:Lilrabb13/Sneak-Tita.git
+git clone https://github.com/Lilrabb13/Sneak-Tita.git
+
+# Para ver el proyecto abrir
+
+index.html
 
 # Deploy en pages
 
