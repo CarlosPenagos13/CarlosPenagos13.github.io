@@ -1,4 +1,4 @@
-# Sneak-Tita
+# Sneak-Tita "Fronted"
 
 Prueba técnica de tita media
 
@@ -12,6 +12,5 @@ Prueba técnica de tita media
 
 git clone git@github.com:Lilrabb13/Sneak-Tita.git
 
-# Para verlo en Pages
-
+# Deploy en pages
 
